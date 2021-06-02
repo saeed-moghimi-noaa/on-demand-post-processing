@@ -1,0 +1,18 @@
+name: test_pp
+channels:
+  - defaults
+dependencies:
+  - python==3.8
+  - bokeh
+  - holoviews
+  - jupyterlab
+  - xarray
+  - datashader
+  - rtree
+  - proj
+  - geoviews-core
+  - pip
+  - pip:
+    - pyschism
+
+prefix: /anaconda3/envs/post_processing
